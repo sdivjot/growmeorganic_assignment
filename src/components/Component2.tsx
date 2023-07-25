@@ -69,11 +69,11 @@ export default function Component2Checkbox() {
     const children1 = (
         <Box sx={{ display: 'flex', flexDirection: 'column', ml: 3 }}>
             <FormControlLabel
-                label="Child 1"
+                label="Support"
                 control={<Checkbox checked={checked11} onChange={handleChange11} />}
             />
             <FormControlLabel
-                label="Child 2"
+                label="Customer Success"
                 control={<Checkbox checked={checked12} onChange={handleChange12} />}
             />
         </Box>
@@ -82,15 +82,15 @@ export default function Component2Checkbox() {
     const children2 = (
         <Box sx={{ display: 'flex', flexDirection: 'column', ml: 3 }}>
             <FormControlLabel
-                label="Child 1"
+                label="Graphic Design"
                 control={<Checkbox checked={checked21} onChange={handleChange21} />}
             />
             <FormControlLabel
-                label="Child 2"
+                label="Product Design"
                 control={<Checkbox checked={checked22} onChange={handleChange22} />}
             />
             <FormControlLabel
-                label="Child 3"
+                label="Web Design"
                 control={<Checkbox checked={checked23} onChange={handleChange23} />}
             />
         </Box>
